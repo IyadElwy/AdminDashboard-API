@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.1"
+  }
+}
